@@ -5,14 +5,13 @@ In this repo we collect some infos on building current versions of chromium and 
 
 ## About
 
-There's several reasons as to why not install the official google-chrome yum repo provided by google.
-The chrome packages provided by this repo do some nasty things to your system, like force-enabling
-the google repo in your yum.repos.d, and adding a cron job which re-installs the google repo in case
-you disabled it manually (of course, this cron job grabs root privileges).
+There's several reasons as to why not use the official google-chrome yum repo provided by google.
 
-All of this is not acceptable, especially when running on a server environment where stability is
-the main requirement. So we decided to use ```rpmbuild``` to build the chromium and chromedriver binaries
-from scratch.
+The chrome packages from this repo do some nasty things to your system, like force-enabling
+the google repository in your yum.repos.d, and adding a cron job which re-installs the google repo in case
+you disabled it manually. Of course, this cron job grabs root privileges. Furthermore, google-chrome depends on ```at``` and installs and force-enables the ```atd``` service in systemd.
+
+All of this is not acceptable, especially when running on a server environment where the stability of a defined environment is the main requirement. So we decided to use ```rpmbuild``` to build the chromium and chromedriver binaries from scratch.
 
 The source rpm provided is based on http://people.centos.org/hughesjr/chromium/6/SRPMS/
 
