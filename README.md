@@ -51,10 +51,7 @@ When rpmbuild complains about missing dependencies (mostly devel packages), inst
 
 On a CentOS minimal system with ```@'development tools'``` installed, we needed to
 
-```# yum install gtk2-devel atk-devel nss-devel pciutils-devel gnome-keyring-devel \
-cups-devel libudev-devel pulseaudio-libs-devel libXdamage-devel libXScrnSaver-devel \
-libXtst-devel fontconfig-devel GConf2-devel dbus-devel glib2-devel gperf alsa-lib-devel \
-libusb-devel libdrm-devel libcap-devel libexif-devel libgnome-keyring-devel```
+```# yum install gtk2-devel atk-devel nss-devel pciutils-devel gnome-keyring-devel cups-devel libudev-devel pulseaudio-libs-devel libXdamage-devel libXScrnSaver-devel libXtst-devel fontconfig-devel GConf2-devel dbus-devel glib2-devel gperf alsa-lib-devel libusb-devel libdrm-devel libcap-devel libexif-devel libgnome-keyring-devel```
 
 ## Binaries
 
