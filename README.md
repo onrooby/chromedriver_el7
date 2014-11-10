@@ -47,7 +47,7 @@ rpmbuild -ba chromium.spec
 ```
 
 When rpmbuild complains about missing dependencies (mostly devel packages), install them using
-```# yum install <packagenames>```
+```# yum install <packagenames>``` or alternatively use ```# yum-builddep chromium.spec```
 
 On a CentOS minimal system with ```@'development tools'``` installed, we needed to
 
