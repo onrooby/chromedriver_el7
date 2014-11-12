@@ -43,11 +43,11 @@ RPM building will take place in ```~/rpmbuild```.
 #### Build
 ```
 cd ~/rpmbuild/SPECS
-rpmbuild -ba chromium.spec
+rpmbuild -ba chromium-browser.spec
 ```
 
 When rpmbuild complains about missing dependencies (mostly devel packages), install them using
-```# yum install <packagenames>``` or alternatively use ```# yum-builddep chromium.spec```
+```# yum install <packagenames>``` or alternatively use ```# yum-builddep chromium-browser.spec```
 
 On a CentOS minimal system with ```@'development tools'``` installed, we needed to
 
