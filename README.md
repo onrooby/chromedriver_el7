@@ -27,6 +27,7 @@ All we did was adding chromedriver to the spec.
 ## Instructions
 
 **Do NOT do this as root! You might damage your system!**
+
 RPM building will take place in ```~/rpmbuild```.
 
 #### Get the SRPM for chromium 
