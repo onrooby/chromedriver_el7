@@ -35,7 +35,7 @@ RPM building will take place in ```~/rpmbuild```.
 
 #### Check integrity
 ```$ sha256sum chromium-browser-38.0.2125.104-1.el7.centos.src.rpm
-5b190007ca529b8589a6d6bb4aff7c38bb2b0cf4c2466c150e8aab055a8afc1b chromium-browser-38.0.2125.104-1.el7.centos.src.rpm```
+57fe233ac86080829e48b3825511c86342ad679ef5f3e49c398631ece43a4998 chromium-browser-38.0.2125.104-1.el7.centos.src.rpm```
 
 #### Install (as normal user)
 ```rpm -ivh chromium-browser-38.0.2125.104-1.el7.centos.src.rpm```
