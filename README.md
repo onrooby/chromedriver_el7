@@ -59,6 +59,8 @@ We provide pre-built packages. Use at your own risk!
 
 http://downloads.onrooby.com/chromium/rpms/
 
+Packages are signed with our GPG key: http://downloads.onrooby.com/RPM-GPG-KEY-onrooby
+
 ## TODO
 
 - Split packages into chromium and chromium-chromedriver
